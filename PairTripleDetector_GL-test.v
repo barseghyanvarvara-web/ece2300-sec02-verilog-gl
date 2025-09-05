@@ -84,7 +84,7 @@ module Top();
   task test_case_2_exhaustive();
     t.test_case_begin( "test_case_2_exhaustive" );
 
-   //     blackbox testing
+   //     blackbox testing in0, in1, in2, out
     check( 0,  0,  0,  0 );
     check( 0,  0,  1,  0 );
     check( 0,  1,  0,  0 );
@@ -98,7 +98,7 @@ module Top();
   endtask
 
   //----------------------------------------------------------------------
-  // test_case_3_xprop
+  // test_case_3_xprop comm
   //----------------------------------------------------------------------
 
   task test_case_3_xprop();
